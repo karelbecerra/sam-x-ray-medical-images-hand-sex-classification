@@ -1,0 +1,26 @@
+model_type: "efficientnet_b0"
+batch: 24
+epochs: 100
+initial_lr: 0.001   # 1e-3
+torch:
+  matmul: 'highest' # Sets the internal precision of float32 matrix multiplications (highest, high or medium)
+
+dataset:
+  base_dir: '.'
+  checkpoint_dir:   'output/models'
+  train_file:       './datasets/background_2/tra_masked_bg_convex_hull_400x300.npz'
+  validation_file:  './datasets/background_2/val_masked_bg_convex_hull_400x300.npz'
+  test_file:        './datasets/background_2/tst_masked_bg_convex_hull_400x300.npz'  
+
+augmentation:
+  rotation_range: 10
+  width_shift_range: 0.1
+  height_shift_range: 0.1
+
+classifier:
+  #block1:
+  #  activation: 'relu'
+  #  output: 128        # hiper parameter
+  block2:
+    activation: 'none'
+    output: 2          # two clasess Female or Male
