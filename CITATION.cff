@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+title: "Sex classification from hand X-ray images in pediatric patients: how zero-shot Segment Anything Model (SAM) can improve medical image analysis"
+version: 1.0.
+identifiers:
+  - type: doi
+    value: tbd.com/1234
+date-released: 2025-01-15
+
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Sex classification from hand X-ray images in pediatric
+  patients: how zero-shot Segment Anything Model (SAM) can
+  improve medical image analysis
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Mollineda
+    given-names: Ramón A.
+    orcid: https://orcid.org/0000-0001-5765-2905
+  - family-names: Becerra
+    given-names: Karel
+    orcid: https://orcid.org/0009-0007-7658-7142
+  - family-names: Mederos
+    given-names: Boris
+    orcid: https://orcid.org/0000-0002-0131-7566
+identifiers:
+  - type: doi
+    value: 10.1234/zenodo.1234
+repository-code: >-
+  https://github.com/karelbecerra/sam-x-ray-medical-images-hand-sex-classification
+repository-artifact: >-
+  https://www.kaggle.com/datasets/karelbecerra/sam-x-ray-medical-images-hand-sex-classification
+abstract: >-
+  The potential to classify sex from hand data is a valuable
+  tool in both forensic and anthropological sciences. This
+  work presents possibly the most comprehensive study to
+  date of sex classification from hand X-ray images.
+keywords:
+  - sex classification
+  - hand X-ray images
+  - Segment Anything Model
+  - X-ray image segmentation
+  - X-ray image classification
+  - prehistoric handprints
+license: Apache-2.0
+commit: v1.0.0
+version: '1'
+date-released: '2025-01-15'

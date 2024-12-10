@@ -26,7 +26,7 @@ assert dataset=='tra' or dataset=='val' or dataset=='tst' or dataset=='tst_hard'
 
 # SAM model preparation
 MODEL_WEIGHTS = 'sam_vit_h_4b8939.pth'
-CHKPT_PATH = '/scratch2/mollined/ambimetrics/sam/weights/'
+CHKPT_PATH = '/sam/weights/'
 WEIGHTS_PATH = os.path.join(CHKPT_PATH, MODEL_WEIGHTS)
 MODEL_TYPE = 'vit_h'
 sam = sam_model_registry[MODEL_TYPE](checkpoint=WEIGHTS_PATH)
@@ -34,7 +34,7 @@ sam.to(device=DEVICE)
 mask_generator = SamAutomaticMaskGenerator(sam)
 
 # input and output data paths
-base_dir = '/datosexp/mollined/rsna-boneage/images/'
+base_dir = '/rsna-boneage/images/'
 original_dir = os.path.join(base_dir, 'original', dataset)
 mask_base_dir = os.path.join(base_dir, 'masks')
 mask_dir = os.path.join(mask_base_dir, dataset)
