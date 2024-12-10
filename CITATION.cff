@@ -1,13 +1,3 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-title: "Sex classification from hand X-ray images in pediatric patients: how zero-shot Segment Anything Model (SAM) can improve medical image analysis"
-version: 1.0.
-identifiers:
-  - type: doi
-    value: tbd.com/1234
-date-released: 2025-01-15
-
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 
@@ -17,9 +7,10 @@ title: >-
   patients: how zero-shot Segment Anything Model (SAM) can
   improve medical image analysis
 message: >-
-  If you use this software, please cite it using the
+  If you use this article, please cite it using the
   metadata from this file.
-type: software
+type: article
+journal: Computers in Biology and Medicine
 authors:
   - family-names: Mollineda
     given-names: Ramón A.
@@ -52,4 +43,4 @@ keywords:
 license: Apache-2.0
 commit: v1.0.0
 version: '1'
-date-released: '2025-01-15'
+date-released: '2025-01-15 TBD'
