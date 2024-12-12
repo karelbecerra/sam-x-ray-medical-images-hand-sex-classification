@@ -1,4 +1,4 @@
-## Citation (To be determinated by 2025)
+## Citation (TBD by 2025)
 ```
 @article{mollineda2025sam,
   title={Sex classification from hand X-ray images in pediatric patients: how zero-shot Segment Anything Model (SAM) can improve medical image analysis},
@@ -9,18 +9,19 @@
 ```
 This work includes three primary steps: **Segmentaion, Classification, and Visualization**
 
-# Datasets
-![Enhanced Hand Regions](figures/enhanced-hand-regions.png)
+# Datasets (available in [Kaggle](https://www.kaggle.com/datasets/karelbecerra/sam-x-ray-medical-images-hand-sex-classification/))
+![Original Hand Regions](figures/original-images.png)
 
-Datasets are available in Kaggle: https://www.kaggle.com/datasets/karelbecerra/sam-x-ray-medical-images-hand-sex-classification/
+# Segmentation, Classification, Visualization
+This work includes three primary steps: **Segmentaion, Classification, and Visualization**
 
-You can find notebooks ready for Kaggle and Google Colab to vizualice datasets: check **kaggle** and **google-colab** folders
-
-# Segmentation
+## Segmentation
 (documentaion in progress: how segmentaion works) 
 First step is to apply segmentation (SAM) on x-ray hand images
+Segmentation example outcome
+![Enhanced Hand Regions](figures/enhanced-hand-regions.png)
 
-# Classification
+## Classification
 With different variations of segmented images we proceed to classification: 
 
 ### Training
@@ -29,10 +30,11 @@ With different variations of segmented images we proceed to classification:
 ### Inference
 (inprogress: description on how to run inference)
 
-# Visualization
+## Visualization
 Finally applying CAMs the visualization of results
 
 # Utils
+Find Kaggle and Google Colab notebooks ready to vizualice datasets: check **kaggle** and **google-colab** folders
 
 ### Kaggle
 Notebooks ready to run on Kaggle environment
