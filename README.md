@@ -11,7 +11,9 @@ This work includes three primary steps: **Segmentaion, Classification, and Visua
 
 # Datasets
 ![Enhanced Hand Regions](figures/enhanced-hand-regions.png)
+
 Datasets are available in Kaggle: https://www.kaggle.com/datasets/karelbecerra/sam-x-ray-medical-images-hand-sex-classification/
+
 You can find notebooks ready for Kaggle and Google Colab to vizualice datasets: check **kaggle** and **google-colab** folders
 
 # Segmentation
@@ -20,8 +22,10 @@ First step is to apply segmentation (SAM) on x-ray hand images
 
 # Classification
 With different variations of segmented images we proceed to classification: 
+
 ### Training
 (inprogress: description on how to training)
+
 ### Inference
 (inprogress: description on how to run inference)
 
