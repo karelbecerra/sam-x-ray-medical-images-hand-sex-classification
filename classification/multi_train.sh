@@ -13,6 +13,8 @@ end_run=$3
 
 # Loop through the specified range of runs
 for ((i = start_run; i <= end_run; i++)); do
-    echo "Running config $config, run $i"
+    echo "######################################################"
+    echo "#######    Running config $config, run $i    #########"
+    echo "######################################################"
     python train.py --config "$config" --run "run$i"
 done
