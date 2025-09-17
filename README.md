@@ -1,4 +1,4 @@
-## Citation (TBD by 2025)
+## Citation
 ```
 @article{MOLLINEDA2025111060,
 title = {Sex classification from hand X-ray images in pediatric patients: How zero-shot Segment Anything Model (SAM) can improve medical image analysis},
